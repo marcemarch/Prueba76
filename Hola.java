@@ -4,5 +4,8 @@ class Hola{
         int a = 55;
         int c = 88;
         System.out.println("resultado de: " + (a+c));
+
+        Persona per = new Persona();
+        per.mostrar();
     } 
 }
